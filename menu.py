@@ -45,7 +45,7 @@ while True:
         code = load_boleto()
     elif option == "4":
         if code == 0:
-            print "\n\nNo hay fichero actualmente seleccionado."
+            print "\n\nDo not exists file currently selected."
         else:
             show_boleto(boleto)
     elif option == "5":
