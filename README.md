@@ -3,7 +3,7 @@
 QuiniWin Python is an open-source project which gives the most probable option for the spanish lottery game know as “La Quiniela”. It’s calculation is based on the power of probabilities obtained through scraping at different bookmakers. The application is configurable in the number of doubles that you want to play.
 
 ######Version:
-20120903
+20131101
 ######Author:
 Antonio J. González
 ######Email and bug report address:
@@ -30,6 +30,19 @@ Once downloaded the lottery it will do scraping in Oddsportal, a website that of
 Transforms these odds to probabilities `1/odd`, it will calculate the most probably combination adjust to the limits previously parameterized.  
 
 The whole process is automatic, handles captchas without overloading OddsPortal server to avoid prejudices derived from the use of this application.
+
+##Usage
+`python menu.py`
+
+This commands show the main menu. You can navigate by the different options or automate the process with the last option.
+
+##External Resources
+This application makes use of the library Selenium Webdriver. Selenium is a suite of tools to automate web browsers across many platforms. You can get more info here: [Selenium WebDriver](http://docs.seleniumhq.org/projects/webdriver/).
+
+##Hit Ratio
+As in any lottery game, the most important part of the success is in the luck factor. Play the most probable betting does not guarantee any prizes, but will give us a greater chance of success in the long run.
+
+On a personal level I have used it in a game system with 7 doubles, where in the second week got benefits hitting a game of 14 hits plus fifteen plenary.
 
 ###License
 >Copyright (C) 2014  Antonio Jesús González León
