@@ -10,9 +10,9 @@ Antonio J. González
 antonioj85 at gmail.com
 
 ##What is ‘La Quiniela’?
-La Quiniela is the name of a spanish lottery game, managed by ‘Loterías y Apuestas del Estado’, based at National Football League Championship. The bet is made on a list of 15 games, usually 10 of First Division and 5 on Second Division.
+La Quiniela is the name of a spanish lottery game, managed by ‘Loterías y Apuestas del Estado’, based at National Football League Championship. The bet is made on a list of 15 matches, usually composed by 10 of First Division and 5 on Second Division.
 
-Every game is marked with a sign for simple bets, and can made two or three signs (double and triple) for multiple bets. Permitted signs are 1, if you bet for the victory of the team listed first (usually local), the X in the event that you create that will tie, or 2, if you bet for victory team listed second (usually the visitor).
+Every match is marked with a sign for simple bets, and can made two or three signs (double and triple) for multiple bets. Permitted signs are 1, if you bet for the victory of the team listed first (usually local), the X in the event that you create that will tie, or 2, if you bet for victory team listed second (usually the visitor).
 
 La Quiniela is intended for 55% of revenue for the awards, which are distributed by category:
 * Special category: __14 hits plus fifteen plenary__: to 10% of revenue 
@@ -42,7 +42,7 @@ This application makes use of the library Selenium Webdriver. Selenium is a suit
 ##Hit Ratio
 As in any lottery game, the most important part of the success is in the luck factor. Play the most probable betting does not guarantee any prizes, but will give us a greater chance of success in the long run.
 
-On a personal level I have used it in a game system with 7 doubles, where in the second week got benefits hitting a game of 14 hits plus fifteen plenary.
+On a personal level I have used it in a game system with 7 doubles, when in the second week got benefits hitting a game of 14 hits plus fifteen plenary.
 
 ###License
 >Copyright (C) 2014  Antonio Jesús González León
