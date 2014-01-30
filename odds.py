@@ -23,9 +23,11 @@ def get_url(boleto):
 		if boleto[i].getCategory() == "1":
 			teams_first = teams_first + 1
 
-	chromedriver = "/Users/asketsus/Dev/webdriver/chromedriver"
-	os.environ["webdriver.chrome.driver"] = chromedriver
-	driver = webdriver.Chrome(chromedriver)
+	#chromedriver = "/Users/asketsus/Dev/webdriver/chromedriver"
+	#os.environ["webdriver.chrome.driver"] = chromedriver
+	#driver = webdriver.Chrome(chromedriver)
+	
+	driver = webdriver.Firefox()
 
 	url = "http://www.oddsportal.com/soccer/spain/primera-division/"
 	driver.get(url)
