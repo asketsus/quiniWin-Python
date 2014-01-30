@@ -10,17 +10,26 @@ Antonio J. González
 antonioj85 at gmail.com
 
 ##What is ‘La Quiniela’?
-La Quiniela is the name of a spanish lottery game, managed by “Loterías y Apuestas del Estado”, based at National Football League Championship. The bet is made on a list of 15 games, usually 10 of First Division and 5 on Second Division.
+La Quiniela is the name of a spanish lottery game, managed by ‘Loterías y Apuestas del Estado’, based at National Football League Championship. The bet is made on a list of 15 games, usually 10 of First Division and 5 on Second Division.
 
 Every game is marked with a sign for simple bets, and can made two or three signs (double and triple) for multiple bets. Permitted signs are 1, if you bet for the victory of the team listed first (usually local), the X in the event that you create that will tie, or 2, if you bet for victory team listed second (usually the visitor).
 
-La Quiniela is intended for 55% of revenue for the awards, which are distributed by category: 
-Special category: 14 hits over fifteen plenary to 10% of revenue 
-1st Category: 14 Hit: 12% of revenue 
-2nd Category: 13 Hit: 8% of revenue 
-3rd Category 12 hits 8% of revenue 
-4th Category: 11 hits: 8% of revenue 
-5th Category: 10 hits 9% of revenue
+La Quiniela is intended for 55% of revenue for the awards, which are distributed by category:
+* Special category: __14 hits plus fifteen plenary__: to 10% of revenue 
+* 1st Category: __14 Hits__: 12% of revenue 
+* 2nd Category: __13 Hits__: 8% of revenue 
+* 3rd Category: __12 hits__: 8% of revenue 
+* 4th Category: __11 hits__: 8% of revenue 
+* 5th Category: __10 hits__: 9% of revenue
+
+##How it works?
+QuiniWin uses [www.loteriasyapuestas.es](http://www.loteriasyapuestas.es) and [www.oddsportal.com](http://www.oddsportal.com) web sites. In first place it download the current Quiniela.
+
+Once downloaded the lottery it will do scraping in Oddsportal, a website that offers data about Spanish League matches in a point of view relative to betting. When the data is obtained for simple and double bets, the optimal values of each event are stored.
+
+Transforms these odds to probabilities `1/odd`, it will calculate the most probably combination adjust to the limits previously parameterized.  
+
+The whole process is automatic, handles captchas without overloading OddsPortal server to avoid prejudices derived from the use of this application.
 
 ###License
 >Copyright (C) 2014  Antonio Jesús González León
