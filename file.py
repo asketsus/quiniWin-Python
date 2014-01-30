@@ -7,6 +7,7 @@ import os
 from bs4 import BeautifulSoup
 from urllib2 import urlopen
 from partido import *
+from datetime import date
 
 def eliminar_tildes(cadena):
     cadena = cadena.replace("\xc3\xa1","A").replace("\xc3\xa9","E").replace("\xc3\xad", "I").replace("\xc3\xb3", "O").replace("\xc3\xba", "U")
@@ -35,7 +36,7 @@ def load_quini(boleto, code=0):
     if code==0:
         code = raw_input("Please insert the current code: ")
 
-    url = "http://www.loteriasyapuestas.es/es/la-quiniela/sorteos/2013/" + code
+    url = "http://www.loteriasyapuestas.es/es/la-quiniela/sorteos/" + str(date.today().year) + "/" + code
 
     soup = BeautifulSoup(urlopen(url))
     
@@ -125,7 +126,3 @@ def load_code(boleto):
 
     code = load_quini(boleto, fullcode[pos+1:])
     return code
-
-
-
-    
